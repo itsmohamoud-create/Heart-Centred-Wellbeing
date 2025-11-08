@@ -1,0 +1,1469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fatuma Hali | Yoga, Sound Healing, Ecstatic Dance & Ritual in London</title>
+    <meta name="description" content="London-based yoga teacher, sound therapist, cacao facilitator & ecstatic dance DJ. Transformative experiences for mind, body and spirit.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        :root {
+            /* Updated Color Palette - More Vibrant & Spiritual */
+            --primary: #8B5FBF; /* Deep Purple - spiritual, creative */
+            --secondary: #E76F51; /* Coral - heart-centered, energizing */
+            --accent: #F4A261; /* Golden Yellow - warmth, joy */
+            --accent-light: #2A9D8F; /* Teal - balance, healing */
+            --cream: #F5F1E8;
+            --charcoal: #3A3A3A;
+            --white: #FFFFFF;
+            --off-white: #FAFAF8;
+            
+            /* Typography */
+            --heading-font: 'Cormorant Garamond', serif;
+            --body-font: 'Inter', sans-serif;
+            --accent-font: 'Montserrat', sans-serif;
+            
+            /* Spacing */
+            --space-xs: 8px;
+            --space-sm: 16px;
+            --space-md: 24px;
+            --space-lg: 32px;
+            --space-xl: 48px;
+            --space-xxl: 64px;
+            --space-xxxl: 96px;
+            
+            /* Border Radius */
+            --radius-sm: 4px;
+            --radius-md: 8px;
+            --radius-lg: 12px;
+            --radius-xl: 20px;
+            
+            /* Shadows */
+            --shadow-sm: 0 2px 4px rgba(0,0,0,0.05);
+            --shadow-md: 0 4px 8px rgba(0,0,0,0.08);
+            --shadow-lg: 0 8px 24px rgba(0,0,0,0.12);
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        body {
+            font-family: var(--body-font);
+            color: var(--charcoal);
+            background-color: var(--off-white);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
+            font-family: var(--heading-font);
+            font-weight: 600;
+            line-height: 1.3;
+            margin-bottom: var(--space-md);
+        }
+        
+        h1 {
+            font-size: 3.5rem;
+        }
+        
+        h2 {
+            font-size: 2.5rem;
+        }
+        
+        h3 {
+            font-size: 1.8rem;
+        }
+        
+        p {
+            margin-bottom: var(--space-md);
+        }
+        
+        a {
+            color: var(--primary);
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        
+        a:hover {
+            color: var(--secondary);
+        }
+        
+        .container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 var(--space-lg);
+        }
+        
+        .section {
+            padding: var(--space-xxxl) 0;
+        }
+        
+        .section-title {
+            text-align: center;
+            margin-bottom: var(--space-xxl);
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: var(--space-sm) var(--space-xl);
+            border-radius: var(--radius-md);
+            font-family: var(--accent-font);
+            font-weight: 500;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: none;
+            font-size: 1rem;
+        }
+        
+        .btn-primary {
+            background-color: var(--primary);
+            color: var(--white);
+        }
+        
+        .btn-primary:hover {
+            background-color: var(--secondary);
+            color: var(--white);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+        }
+        
+        .btn-secondary {
+            background-color: transparent;
+            color: var(--primary);
+            border: 2px solid var(--primary);
+        }
+        
+        .btn-secondary:hover {
+            background-color: var(--primary);
+            color: var(--white);
+            transform: translateY(-2px);
+        }
+        
+        .btn-accent {
+            background-color: var(--accent-light);
+            color: var(--white);
+        }
+        
+        .btn-accent:hover {
+            background-color: var(--secondary);
+            color: var(--white);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+        }
+        
+        /* Header */
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            z-index: 1000;
+            padding: var(--space-sm) 0;
+            transition: all 0.3s ease;
+            box-shadow: var(--shadow-sm);
+        }
+        
+        header.scrolled {
+            padding: var(--space-xs) 0;
+        }
+        
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-family: var(--heading-font);
+            font-size: 1.8rem;
+            font-weight: 600;
+            color: var(--secondary);
+        }
+        
+        .logo span {
+            color: var(--primary);
+        }
+        
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: var(--space-xl);
+        }
+        
+        .nav-links a {
+            font-family: var(--accent-font);
+            font-weight: 500;
+            color: var(--charcoal);
+        }
+        
+        .nav-links a:hover {
+            color: var(--primary);
+        }
+        
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            color: var(--charcoal);
+            cursor: pointer;
+        }
+        
+        /* Hero Section */
+        .hero {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background: linear-gradient(135deg, rgba(139, 95, 191, 0.8), rgba(231, 111, 81, 0.7)), url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><rect width="100" height="100" fill="%23F5F1E8"/><path d="M30,30 Q50,10 70,30 T90,50 T70,70 T50,90 T30,70 T10,50 T30,30 Z" fill="%238B5FBF" opacity="0.1"/></svg>');
+            color: var(--white);
+            position: relative;
+        }
+        
+        .hero-content {
+            max-width: 800px;
+            padding: 0 var(--space-lg);
+        }
+        
+        .hero h1 {
+            font-size: 4rem;
+            margin-bottom: var(--space-lg);
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .hero p {
+            font-size: 1.3rem;
+            margin-bottom: var(--space-xxl);
+        }
+        
+        .hero-btns {
+            display: flex;
+            gap: var(--space-lg);
+            justify-content: center;
+        }
+        
+        .scroll-indicator {
+            position: absolute;
+            bottom: var(--space-xl);
+            left: 50%;
+            transform: translateX(-50%);
+            animation: bounce 2s infinite;
+        }
+        
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0) translateX(-50%);
+            }
+            40% {
+                transform: translateY(-10px) translateX(-50%);
+            }
+            60% {
+                transform: translateY(-5px) translateX(-50%);
+            }
+        }
+        
+        /* Special Birthday Banner */
+        .birthday-banner {
+            background: linear-gradient(90deg, var(--primary), var(--secondary));
+            color: white;
+            text-align: center;
+            padding: var(--space-sm);
+            font-family: var(--accent-font);
+            font-weight: 500;
+        }
+        
+        /* Who This Is For Section */
+        .who-section {
+            background-color: var(--white);
+        }
+        
+        .pain-points {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: var(--space-xl);
+            margin-bottom: var(--space-xxl);
+        }
+        
+        .pain-point {
+            text-align: center;
+            padding: var(--space-xl);
+            border-radius: var(--radius-lg);
+            background-color: var(--off-white);
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .pain-point:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background: linear-gradient(90deg, var(--primary), var(--secondary));
+        }
+        
+        .pain-point:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-md);
+        }
+        
+        .pain-point i {
+            font-size: 2.5rem;
+            color: var(--primary);
+            margin-bottom: var(--space-md);
+        }
+        
+        .transition-line {
+            text-align: center;
+            font-size: 1.5rem;
+            font-family: var(--heading-font);
+            font-style: italic;
+            color: var(--secondary);
+            padding: var(--space-lg) 0;
+            border-top: 1px solid var(--cream);
+            border-bottom: 1px solid var(--cream);
+            background-color: rgba(139, 95, 191, 0.05);
+        }
+        
+        /* Services Section */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: var(--space-xl);
+        }
+        
+        .service-card {
+            background-color: var(--white);
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            box-shadow: var(--shadow-sm);
+            transition: all 0.3s ease;
+            position: relative;
+        }
+        
+        .service-card:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background: linear-gradient(90deg, var(--primary), var(--accent-light));
+        }
+        
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-lg);
+        }
+        
+        .service-img {
+            height: 200px;
+            background: linear-gradient(135deg, var(--primary), var(--accent-light));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--white);
+            font-size: 3rem;
+        }
+        
+        .service-content {
+            padding: var(--space-xl);
+        }
+        
+        .service-content h3 {
+            color: var(--secondary);
+            margin-bottom: var(--space-sm);
+        }
+        
+        .service-cta {
+            margin-top: var(--space-lg);
+        }
+        
+        /* About Section */
+        .about-section {
+            background-color: var(--cream);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .about-section:before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -10%;
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(139, 95, 191, 0.1) 0%, rgba(139, 95, 191, 0) 70%);
+        }
+        
+        .about-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: var(--space-xxl);
+            align-items: center;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .about-img {
+            border-radius: var(--radius-xl);
+            overflow: hidden;
+            box-shadow: var(--shadow-lg);
+            background: linear-gradient(135deg, var(--primary), var(--accent-light));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 500px;
+            color: white;
+            font-size: 1.5rem;
+        }
+        
+        .credentials {
+            display: flex;
+            justify-content: space-between;
+            margin-top: var(--space-xl);
+            padding-top: var(--space-lg);
+            border-top: 1px solid rgba(0,0,0,0.1);
+        }
+        
+        .credential {
+            text-align: center;
+        }
+        
+        .credential i {
+            font-size: 1.5rem;
+            color: var(--primary);
+            margin-bottom: var(--space-sm);
+        }
+        
+        /* Events Section */
+        .events-section {
+            background-color: var(--white);
+        }
+        
+        .events-container {
+            display: flex;
+            gap: var(--space-xl);
+            overflow-x: auto;
+            padding: var(--space-md) 0;
+            scrollbar-width: thin;
+        }
+        
+        .event-card {
+            min-width: 300px;
+            background-color: var(--off-white);
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            box-shadow: var(--shadow-sm);
+            transition: all 0.3s ease;
+            position: relative;
+        }
+        
+        .event-card:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background: linear-gradient(90deg, var(--secondary), var(--accent));
+        }
+        
+        .event-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-md);
+        }
+        
+        .event-img {
+            height: 180px;
+            background: linear-gradient(135deg, var(--secondary), var(--accent));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--white);
+            font-size: 2rem;
+        }
+        
+        .event-content {
+            padding: var(--space-lg);
+        }
+        
+        .event-meta {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: var(--space-sm);
+            font-size: 0.9rem;
+            color: var(--charcoal);
+        }
+        
+        .event-price {
+            font-weight: 600;
+            color: var(--primary);
+        }
+        
+        .event-cta {
+            margin-top: var(--space-lg);
+        }
+        
+        /* How It Works Section */
+        .how-it-works {
+            background-color: var(--cream);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .how-it-works:before {
+            content: '';
+            position: absolute;
+            bottom: -50%;
+            left: -10%;
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(244, 162, 97, 0.1) 0%, rgba(244, 162, 97, 0) 70%);
+        }
+        
+        .steps {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: var(--space-xl);
+            position: relative;
+            z-index: 1;
+        }
+        
+        .step {
+            text-align: center;
+            padding: var(--space-xl);
+            background: var(--white);
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-sm);
+            transition: all 0.3s ease;
+        }
+        
+        .step:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-md);
+        }
+        
+        .step-number {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--primary), var(--accent-light));
+            color: var(--white);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto var(--space-lg);
+            font-family: var(--accent-font);
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+        
+        .step h3 {
+            color: var(--secondary);
+        }
+        
+        /* Testimonials Section */
+        .testimonials-section {
+            background-color: var(--white);
+        }
+        
+        .testimonial-video {
+            max-width: 800px;
+            margin: 0 auto var(--space-xxl);
+            background: linear-gradient(135deg, var(--primary), var(--accent-light));
+            border-radius: var(--radius-lg);
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--white);
+            font-size: 2rem;
+        }
+        
+        .testimonial-carousel {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .testimonial {
+            background-color: var(--off-white);
+            padding: var(--space-xl);
+            border-radius: var(--radius-lg);
+            margin-bottom: var(--space-lg);
+            box-shadow: var(--shadow-sm);
+            position: relative;
+        }
+        
+        .testimonial:before {
+            content: '"';
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            font-size: 4rem;
+            color: var(--primary);
+            opacity: 0.2;
+            font-family: var(--heading-font);
+        }
+        
+        .testimonial-text {
+            font-style: italic;
+            margin-bottom: var(--space-md);
+            padding-left: var(--space-md);
+        }
+        
+        .testimonial-author {
+            font-weight: 600;
+            color: var(--secondary);
+            padding-left: var(--space-md);
+        }
+        
+        /* FAQ Section */
+        .faq-section {
+            background-color: var(--cream);
+        }
+        
+        .faq-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .faq-item {
+            margin-bottom: var(--space-md);
+            border-radius: var(--radius-md);
+            overflow: hidden;
+            box-shadow: var(--shadow-sm);
+        }
+        
+        .faq-question {
+            background-color: var(--white);
+            padding: var(--space-lg);
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: 500;
+        }
+        
+        .faq-question i {
+            transition: transform 0.3s ease;
+        }
+        
+        .faq-answer {
+            background-color: var(--off-white);
+            padding: 0 var(--space-lg);
+            max-height: 0;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+        
+        .faq-item.active .faq-answer {
+            padding: var(--space-lg);
+            max-height: 500px;
+        }
+        
+        .faq-item.active .faq-question i {
+            transform: rotate(180deg);
+        }
+        
+        /* Final CTA Section */
+        .final-cta {
+            background: linear-gradient(135deg, rgba(139, 95, 191, 0.9), rgba(231, 111, 81, 0.8)), url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><rect width="100" height="100" fill="%23F5F1E8"/><circle cx="50" cy="50" r="40" fill="%238B5FBF" opacity="0.1"/></svg>');
+            color: var(--white);
+            text-align: center;
+            padding: var(--space-xxxl) 0;
+        }
+        
+        .final-cta h2 {
+            font-size: 3rem;
+            margin-bottom: var(--space-lg);
+        }
+        
+        .final-cta p {
+            font-size: 1.3rem;
+            max-width: 600px;
+            margin: 0 auto var(--space-xxl);
+        }
+        
+        /* Footer */
+        footer {
+            background-color: var(--charcoal);
+            color: var(--white);
+            padding: var(--space-xxxl) 0 var(--space-xl);
+        }
+        
+        .footer-container {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr;
+            gap: var(--space-xxl);
+            margin-bottom: var(--space-xxl);
+        }
+        
+        .footer-logo {
+            font-family: var(--heading-font);
+            font-size: 1.8rem;
+            font-weight: 600;
+            margin-bottom: var(--space-md);
+        }
+        
+        .footer-logo span {
+            color: var(--primary);
+        }
+        
+        .footer-about p {
+            margin-bottom: var(--space-lg);
+        }
+        
+        .social-links {
+            display: flex;
+            gap: var(--space-md);
+        }
+        
+        .social-links a {
+            color: var(--white);
+            font-size: 1.2rem;
+        }
+        
+        .social-links a:hover {
+            color: var(--primary);
+        }
+        
+        .footer-links h4 {
+            color: var(--white);
+            margin-bottom: var(--space-lg);
+            font-family: var(--accent-font);
+        }
+        
+        .footer-links ul {
+            list-style: none;
+        }
+        
+        .footer-links li {
+            margin-bottom: var(--space-sm);
+        }
+        
+        .footer-links a {
+            color: rgba(255,255,255,0.7);
+        }
+        
+        .footer-links a:hover {
+            color: var(--primary);
+        }
+        
+        .newsletter h4 {
+            color: var(--white);
+            margin-bottom: var(--space-lg);
+            font-family: var(--accent-font);
+        }
+        
+        .newsletter-form {
+            display: flex;
+            margin-bottom: var(--space-md);
+        }
+        
+        .newsletter-form input {
+            flex: 1;
+            padding: var(--space-sm);
+            border: none;
+            border-radius: var(--radius-sm) 0 0 var(--radius-sm);
+            font-family: var(--body-font);
+        }
+        
+        .newsletter-form button {
+            background-color: var(--primary);
+            color: var(--white);
+            border: none;
+            padding: var(--space-sm) var(--space-md);
+            border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        
+        .newsletter-form button:hover {
+            background-color: var(--secondary);
+        }
+        
+        .footer-bottom {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: var(--space-lg);
+            border-top: 1px solid rgba(255,255,255,0.1);
+            font-size: 0.9rem;
+            color: rgba(255,255,255,0.6);
+        }
+        
+        .payment-icons {
+            display: flex;
+            gap: var(--space-sm);
+        }
+        
+        .payment-icons i {
+            font-size: 1.5rem;
+        }
+        
+        /* WhatsApp Widget */
+        .whatsapp-widget {
+            position: fixed;
+            bottom: var(--space-lg);
+            right: var(--space-lg);
+            z-index: 100;
+        }
+        
+        .whatsapp-btn {
+            display: flex;
+            align-items: center;
+            gap: var(--space-sm);
+            background-color: #25D366;
+            color: var(--white);
+            padding: var(--space-sm) var(--space-lg);
+            border-radius: 50px;
+            box-shadow: var(--shadow-lg);
+            transition: all 0.3s ease;
+        }
+        
+        .whatsapp-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-lg);
+        }
+        
+        .whatsapp-btn i {
+            font-size: 1.5rem;
+        }
+        
+        /* Progress Bar */
+        .progress-bar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 0%;
+            height: 3px;
+            background: linear-gradient(90deg, var(--primary), var(--secondary));
+            z-index: 1001;
+            transition: width 0.2s ease;
+        }
+        
+        /* Responsive Styles */
+        @media (max-width: 1024px) {
+            h1 {
+                font-size: 3rem;
+            }
+            
+            h2 {
+                font-size: 2.2rem;
+            }
+            
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .about-container {
+                grid-template-columns: 1fr;
+                gap: var(--space-xl);
+            }
+            
+            .footer-container {
+                grid-template-columns: 1fr 1fr;
+                gap: var(--space-xl);
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .section {
+                padding: var(--space-xxl) 0;
+            }
+            
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+            
+            .hero p {
+                font-size: 1.1rem;
+            }
+            
+            .hero-btns {
+                flex-direction: column;
+                gap: var(--space-md);
+            }
+            
+            .pain-points {
+                grid-template-columns: 1fr;
+            }
+            
+            .steps {
+                grid-template-columns: 1fr;
+            }
+            
+            .nav-links {
+                display: none;
+            }
+            
+            .mobile-menu-btn {
+                display: block;
+            }
+            
+            .footer-container {
+                grid-template-columns: 1fr;
+            }
+            
+            .footer-bottom {
+                flex-direction: column;
+                gap: var(--space-md);
+                text-align: center;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .container {
+                padding: 0 var(--space-md);
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            h2 {
+                font-size: 1.8rem;
+            }
+            
+            .final-cta h2 {
+                font-size: 2.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Progress Bar -->
+    <div class="progress-bar" id="progressBar"></div>
+    
+    <!-- Birthday Banner -->
+    <div class="birthday-banner">
+        <p>🎉 Celebrating Fatuma's Birthday! Special offers available this month. 🎉</p>
+    </div>
+    
+    <!-- Header -->
+    <header id="header">
+        <div class="container header-container">
+            <div class="logo">FATUMA <span>HALI</span></div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#who">Who This Is For</a></li>
+                    <li><a href="#services">Offerings</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#events">Events</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact" class="btn btn-secondary">Contact</a></li>
+                </ul>
+                <button class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Yoga, Sound, Dance, Ritual</h1>
+            <p>London-based qualified sound therapist, cacao facilitator, yoga teacher, ecstatic dance DJ & transformation coach.</p>
+            <div class="hero-btns">
+                <a href="#services" class="btn btn-primary">Explore Offerings</a>
+                <a href="#events" class="btn btn-secondary">View Events</a>
+                <a href="#contact" class="btn btn-accent">Book Discovery Call</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+    
+    <!-- Who This Is For Section -->
+    <section class="section who-section" id="who">
+        <div class="container">
+            <h2 class="section-title">If You've Been Holding It All Together...</h2>
+            <div class="pain-points">
+                <div class="pain-point">
+                    <i class="fas fa-brain"></i>
+                    <h3>Disconnected Excellence</h3>
+                    <p>You lead with excellence but feel disconnected from yourself, running on willpower alone.</p>
+                </div>
+                <div class="pain-point">
+                    <i class="fas fa-tasks"></i>
+                    <h3>Mastered Doing, Forgotten Being</h3>
+                    <p>You've mastered 'doing' but forgotten how to simply 'be' - craving something deeper than productivity hacks.</p>
+                </div>
+                <div class="pain-point">
+                    <i class="fas fa-heart"></i>
+                    <h3>Craving Deeper Connection</h3>
+                    <p>You're successful by all external measures, yet feel an emptiness that achievement can't fill.</p>
+                </div>
+            </div>
+            <div class="transition-line">
+                You're not broken. You're remembering.
+            </div>
+        </div>
+    </section>
+    
+    <!-- Services Section -->
+    <section class="section" id="services">
+        <div class="container">
+            <h2 class="section-title">What I Offer</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-img">
+                        <i class="fas fa-spa"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Yoga & Movement</h3>
+                        <p>Yin, Vinyasa, and Restorative practices to release tension, increase flexibility, and reconnect with your body's innate wisdom. Weekly classes and private sessions available across London.</p>
+                        <div class="service-cta">
+                            <a href="#events" class="btn btn-primary">See Schedule</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-img">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Sound Healing</h3>
+                        <p>Immerse in therapeutic frequencies from crystal bowls, gongs, and voice to recalibrate your nervous system, release stress, and access deep states of meditation. Private and group sessions.</p>
+                        <div class="service-cta">
+                            <a href="#events" class="btn btn-primary">Experience Sound</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-img">
+                        <i class="fas fa-child"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Ecstatic Dance</h3>
+                        <p>DJ-led movement rituals where you can freely express yourself without steps, judgment, or expectations. Rediscover joy through uninhibited movement. Regular events in Hackney Wick.</p>
+                        <div class="service-cta">
+                            <a href="#events" class="btn btn-primary">Join the Dance</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-img">
+                        <i class="fas fa-mug-hot"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Cacao Ceremony & Mentorship</h3>
+                        <p>Sacred plant medicine circles and private transformation coaching to help you navigate life transitions, connect with intuition, and embody your authentic power. Group and 1:1 options.</p>
+                        <div class="service-cta">
+                            <a href="#contact" class="btn btn-primary">Work With Me</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: var(--space-xl);">
+                <a href="#contact" class="btn btn-secondary">Book Private Session</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- About Section -->
+    <section class="section about-section" id="about">
+        <div class="container">
+            <h2 class="section-title">From Boardroom to Ceremony Circle</h2>
+            <div class="about-container">
+                <div class="about-img">
+                    <!-- Placeholder for Fatuma's image -->
+                    <div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+                        <i class="fas fa-seedling" style="font-size: 3rem; margin-bottom: var(--space-md);"></i>
+                        <div>Fatuma Hali - Founder</div>
+                        <div style="margin-top: var(--space-md); font-size: 1rem;">Sound Therapist • Yoga Teacher • Cacao Facilitator • Ecstatic Dance DJ</div>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <p>For two decades, I led teams in corporate boardrooms—strategy, performance, results. I was respected, successful, and exhausted. Beneath the tailored suits and executive presence, I was numb. Disconnected from my body. Running on willpower alone.</p>
+                    <p>The unraveling began quietly. A sound bath in Bali. Cacao ceremony in Guatemala. The first time I danced without needing a reason. My body remembered what my mind had forgotten—that we are not machines to optimize, but beings to honor.</p>
+                    <p>I trained in yoga, sound healing, ecstatic dance facilitation. I became a space-holder for the transformation I'd experienced. I learned that the skills that made me an effective leader—presence, intuition, deep listening—were the same qualities that make ceremony sacred.</p>
+                    <p>Today, I guide women who, like me, have achieved everything society promised would fulfill them—and discovered it's not enough. The high-performers. The over-givers. The women who've forgotten what their own heartbeat sounds like.</p>
+                    <p>My work is simple: I create spaces where you can put down the armor. Where your body can speak. Where softness becomes your greatest strength. Whether through yoga, sound, dance, or ritual, the invitation is always the same:</p>
+                    <p><strong>Come as you are. Feel again. Move again. Return.</strong></p>
+                    
+                    <div class="credentials">
+                        <div class="credential">
+                            <i class="fas fa-award"></i>
+                            <p>200hr Yoga Teacher</p>
+                        </div>
+                        <div class="credential">
+                            <i class="fas fa-music"></i>
+                            <p>Sound Healing Practitioner</p>
+                        </div>
+                        <div class="credential">
+                            <i class="fas fa-seedling"></i>
+                            <p>Cacao Facilitator</p>
+                        </div>
+                    </div>
+                    
+                    <div style="margin-top: var(--space-xl);">
+                        <a href="#contact" class="btn btn-primary">Connect With Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Events Section -->
+    <section class="section events-section" id="events">
+        <div class="container">
+            <h2 class="section-title">Join Me In London</h2>
+            <div class="events-container">
+                <div class="event-card">
+                    <div class="event-img">
+                        <i class="fas fa-moon"></i>
+                    </div>
+                    <div class="event-content">
+                        <h3>Sunday Sanctuary: Yin & Sound Healing</h3>
+                        <div class="event-meta">
+                            <span><i class="far fa-clock"></i> Sundays 6pm</span>
+                            <span><i class="fas fa-map-marker-alt"></i> London Studio</span>
+                        </div>
+                        <p>A deeply restorative practice combining gentle yin yoga with immersive sound healing.</p>
+                        <div class="event-price">£25</div>
+                        <div class="event-cta">
+                            <a href="#" class="btn btn-primary">Reserve Spot</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="event-card">
+                    <div class="event-img">
+                        <i class="fas fa-mug-hot"></i>
+                    </div>
+                    <div class="event-content">
+                        <h3>Cacao & Breathwork Ceremony</h3>
+                        <div class="event-meta">
+                            <span><i class="far fa-clock"></i> 1st Friday Monthly</span>
+                            <span><i class="fas fa-map-marker-alt"></i> London Studio</span>
+                        </div>
+                        <p>Heart-opening cacao ceremony combined with transformative breathwork practice.</p>
+                        <div class="event-price">£35</div>
+                        <div class="event-cta">
+                            <a href="#" class="btn btn-primary">Reserve Spot</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="event-card">
+                    <div class="event-img">
+                        <i class="fas fa-child"></i>
+                    </div>
+                    <div class="event-content">
+                        <h3>Ecstatic Dance London</h3>
+                        <div class="event-meta">
+                            <span><i class="far fa-clock"></i> Every Wednesday 6:30pm</span>
+                            <span><i class="fas fa-map-marker-alt"></i> The Bath House, Hackney Wick</span>
+                        </div>
+                        <p>Free-form movement to curated playlists in a judgment-free, substance-free space.</p>
+                        <div class="event-price">£18</div>
+                        <div class="event-cta">
+                            <a href="#" class="btn btn-primary">Join the Dance</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="event-card">
+                    <div class="event-img">
+                        <i class="fas fa-mountain"></i>
+                    </div>
+                    <div class="event-content">
+                        <h3>EMBODAY FEST - 4.10.25</h3>
+                        <div class="event-meta">
+                            <span><i class="far fa-clock"></i> October 4, 2025</span>
+                            <span><i class="fas fa-map-marker-alt"></i> The Bath House, Hackney Wick</span>
+                        </div>
+                        <p>Full day festival of ecstatic dance, sound healing, yoga and ceremony. Fatuma leading ceremony & sound healing.</p>
+                        <div class="event-price">£65</div>
+                        <div class="event-cta">
+                            <a href="#" class="btn btn-primary">Get Tickets</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: var(--space-xl);">
+                <a href="#contact" class="btn btn-secondary">Book Private Group Event</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- How It Works Section -->
+    <section class="section how-it-works">
+        <div class="container">
+            <h2 class="section-title">Your Journey Begins Here</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Choose Your Path</h3>
+                    <p>Browse classes, retreats, or private sessions. Follow what resonates with your body's current needs.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Book Your Experience</h3>
+                    <p>Simple online booking or connect via WhatsApp. All questions welcome before you commit.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Show Up & Receive</h3>
+                    <p>No preparation needed. Just bring yourself as you are. Your body knows what to do.</p>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: var(--space-xxl);">
+                <a href="#events" class="btn btn-primary">Start Your Journey</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Testimonials Section -->
+    <section class="section testimonials-section" id="testimonials">
+        <div class="container">
+            <h2 class="section-title">What People Are Saying</h2>
+            
+            <div class="testimonial-video">
+                <i class="fas fa-play-circle"></i>
+                <span style="margin-left: var(--space-sm);">Video Testimonial</span>
+            </div>
+            
+            <div class="testimonial-carousel">
+                <div class="testimonial">
+                    <div class="testimonial-text">
+                        "After 15 years in finance, I'd forgotten what it felt like to be soft. Fatuma's sound baths gave me permission to release what I'd been holding. I cry every time—and leave lighter."
+                    </div>
+                    <div class="testimonial-author">— Sarah M., Investment Banker</div>
+                </div>
+                
+                <div class="testimonial">
+                    <div class="testimonial-text">
+                        "I came to Fatuma's class skeptical. I'm not a 'woo-woo' person. But something about the way she holds space—it's grounded, real, no bullshit. I've been coming for 6 months now. My anxiety has halved."
+                    </div>
+                    <div class="testimonial-author">— Jennifer K., Tech Entrepreneur</div>
+                </div>
+                
+                <div class="testimonial">
+                    <div class="testimonial-text">
+                        "The cacao ceremony was the most profound experience I've had. Fatuma creates safety that lets you go deep. I processed grief I didn't know I was carrying."
+                    </div>
+                    <div class="testimonial-author">— Amara L., Therapist</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- FAQ Section -->
+    <section class="section faq-section" id="faq">
+        <div class="container">
+            <h2 class="section-title">Common Questions</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        I've never done yoga/sound healing/ecstatic dance. Is this for beginners?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        Absolutely. Most people who come to me are beginners. My approach is gentle, trauma-informed, and assumes zero experience. The only requirement is curiosity.
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        What should I bring/wear?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        Comfortable clothing you can move in. I provide all props (mats, bolsters, blankets). For cacao ceremonies, bring an open heart and a journal if you like to process through writing.
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Are your sessions religious or spiritual?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        My work is spiritual but not religious. You don't need any specific beliefs. If you're curious about reconnecting with your body and inner wisdom, you belong here.
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Do you offer private sessions?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        Yes. Private 1:1 sessions are available for yoga, sound healing, or transformation coaching. These are bespoke experiences designed around your needs. Book a free 20-minute discovery call to explore if we're a fit.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Final CTA Section -->
+    <section class="final-cta" id="contact">
+        <div class="container">
+            <h2>Your Body Is Waiting</h2>
+            <p>The path back to yourself begins with a single breath. A single movement. A single choice to feel again.</p>
+            <div style="display: flex; gap: var(--space-lg); justify-content: center; flex-wrap: wrap;">
+                <a href="#events" class="btn btn-primary">Book Your First Session</a>
+                <a href="#" class="btn btn-secondary">Download Free Meditation</a>
+                <a href="#" class="btn btn-accent">Book Discovery Call</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-about">
+                    <div class="footer-logo">FATUMA <span>HALI</span></div>
+                    <p>London-based yoga teacher, sound therapist, cacao facilitator & ecstatic dance DJ. Transformative experiences for mind, body and spirit.</p>
+                    <div class="social-links">
+                        <a href="https://instagram.com/fatuma.hali" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="far fa-envelope"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Explore</h4>
+                    <ul>
+                        <li><a href="#who">Who This Is For</a></li>
+                        <li><a href="#services">Offerings</a></li>
+                        <li><a href="#about">About Fatuma</a></li>
+                        <li><a href="#events">Events</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Cookie Settings</a></li>
+                    </ul>
+                </div>
+                
+                <div class="newsletter">
+                    <h4>Weekly Rituals</h4>
+                    <p>Receive practices for embodied living directly to your inbox.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div>© 2025 Fatuma Hali. All rights reserved. | London, UK</div>
+                <div class="payment-icons">
+                    <i class="fab fa-cc-stripe"></i>
+                    <i class="fab fa-cc-paypal"></i>
+                    <i class="fab fa-apple-pay"></i>
+                    <i class="fab fa-google-pay"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- WhatsApp Widget -->
+    <div class="whatsapp-widget">
+        <a href="https://wa.me/447000000000?text=Hi%20Fatuma,%20I'm%20interested%20in%20learning%20more%20about%20your%20offerings." class="whatsapp-btn" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+            <span>Chat with us</span>
+        </a>
+    </div>
+    
+    <script>
+        // Progress Bar
+        window.addEventListener('scroll', function() {
+            const winHeight = window.innerHeight;
+            const docHeight = document.documentElement.scrollHeight;
+            const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            const scrollPercent = (scrollTop / (docHeight - winHeight)) * 100;
+            document.getElementById('progressBar').style.width = scrollPercent + '%';
+        });
+        
+        // Header scroll effect
+        window.addEventListener('scroll', function() {
+            const header = document.getElementById('header');
+            if (window.scrollY > 100) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+        
+        // FAQ Accordion
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', () => {
+                const item = question.parentNode;
+                item.classList.toggle('active');
+            });
+        });
+        
+        // Mobile Menu Toggle
+        const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+        const navLinks = document.querySelector('.nav-links');
+        
+        mobileMenuBtn.addEventListener('click', () => {
+            navLinks.style.display = navLinks.style.display === 'flex' ? 'none' : 'flex';
+        });
+        
+        // Close mobile menu when clicking on a link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                if (window.innerWidth <= 768) {
+                    navLinks.style.display = 'none';
+                }
+            });
+        });
+        
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    const headerHeight = document.getElementById('header').offsetHeight;
+                    const targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset - headerHeight;
+                    
+                    window.scrollTo({
+                        top: targetPosition,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
